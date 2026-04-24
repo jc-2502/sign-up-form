@@ -1,3 +1,11 @@
+body, .website-name-container, .right-side, #sign-up-form {
+  display: flex;
+}
+
+.right-side {
+  flex-direction: column;
+}
+
 .left-side {
   background-color: black;
   color: white;
