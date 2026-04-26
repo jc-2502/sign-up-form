@@ -1,3 +1,15 @@
+/* ****************************** resets ****************************** */
+
+* {
+  box-sizing: border-box;
+}
+
+*:not(dialog) {
+  margin: 0;
+}
+
+/* ******************************  ****************************** */
+
 body, .website-name-container, .right-side, #sign-up-form {
   display: flex;
 }
