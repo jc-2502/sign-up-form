@@ -9,6 +9,10 @@
   margin: 0;
 }
 
+:root {
+  --shared-green: #596D48;
+}
+
 /* ******************************  ****************************** */
 
 body, .website-name-container, .right-side, #sign-up-form {
@@ -23,4 +27,14 @@ body, .website-name-container, .right-side, #sign-up-form {
   background-image: url('images/halie-west-25xggax4bSA-unsplash.jpg');
   background-size: cover;
   color: white;
+}
+
+button#create-account {
+  background-color: var(--shared-green);
+  border-color: var(--shared-green);
+  color: white;
+}
+
+#log-in-link {
+  color: var(--shared-green);
 }
