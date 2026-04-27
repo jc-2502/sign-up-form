@@ -33,6 +33,10 @@ body, .website-name-container, .right-side, #sign-up-form {
   background-color: rgba(0, 0, 0, 0.4);
 }
 
+input {
+  border: 1px solid #E5E7EB;
+}
+
 button#create-account {
   background-color: var(--shared-green);
   border-color: var(--shared-green);
