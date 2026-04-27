@@ -37,6 +37,10 @@ input {
   border: 1px solid #E5E7EB;
 }
 
+input[type='password']:invalid {
+  border: 1px solid rgb(185, 0, 0);
+}
+
 button#create-account {
   background-color: var(--shared-green);
   border-color: var(--shared-green);
