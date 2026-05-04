@@ -76,6 +76,7 @@ body {
 
 #sign-up-form {
   flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .form-control {
