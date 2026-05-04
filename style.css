@@ -23,6 +23,14 @@ body, .website-name-container, .right-side, #sign-up-form, .form-control {
   flex-direction: column;
 }
 
+.right-side {
+  flex: auto;
+}
+
+.top, .bottom {
+  flex: 1;
+}
+
 /* ****************************** sections ****************************** */
 
 body {
