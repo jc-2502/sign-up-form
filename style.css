@@ -112,6 +112,7 @@ button#create-account {
   background-color: var(--shared-green);
   border-color: var(--shared-green);
   color: white;
+  margin-bottom: 40px;
 }
 
 #log-in-link {
