@@ -94,6 +94,12 @@ body {
   margin-right: 75px;
 }
 
+label {
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+}
+
 input {
   border: 1px solid #E5E7EB;
   width: 260px;
