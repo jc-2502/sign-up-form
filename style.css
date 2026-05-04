@@ -64,9 +64,15 @@ body {
   background-color: #F9FAFB;
 }
 
+.top, .middle p {
+  font-size: 24px;
+  font-weight: 500;
+}
+
 .top {
   justify-content: flex-end;
   padding-bottom: 60px;
+  line-height: 1.2;
 }
 
 .top > .container {
