@@ -76,6 +76,11 @@ body {
   font-display: swap;
 }
 
+.left-side h1 {
+  font-family: Norse;
+  font-size: 96px;
+}
+
 .right-side {
   justify-content: center;
 }
