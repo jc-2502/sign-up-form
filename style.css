@@ -88,6 +88,10 @@ body {
   font-size: 14px;
 }
 
+.left-side :visited {
+  color: white;
+}
+
 .right-side {
   justify-content: center;
 }
