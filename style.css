@@ -95,7 +95,7 @@ input {
 }
 
 input[type='password']:invalid {
-  border: 1px solid rgb(185, 0, 0);
+  border: 1px solid rgb(185, 28, 28);
 }
 
 input:focus, button#create-account {
@@ -103,7 +103,7 @@ input:focus, button#create-account {
 }
 
 input:focus {
-  border: 1px solid rgb(0, 0,200);
+  border: 1px solid rgb(29, 78, 216);
   outline: none;
 }
 
