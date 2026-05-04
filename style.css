@@ -42,6 +42,8 @@ body {
   background-size: cover;
   color: white;
   justify-content: space-between;
+  padding-top: 225px;
+  padding-bottom: 12px;
 }
 
 .website-name-container {
