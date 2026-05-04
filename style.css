@@ -47,6 +47,10 @@ body {
   width: 675px;
 }
 
+.top, .bottom {
+  background-color: #F9FAFB;
+}
+
 #sign-up-form {
   flex-wrap: wrap;
 }
