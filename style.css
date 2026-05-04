@@ -15,11 +15,11 @@
 
 /* ****************************** flexbox ****************************** */
 
-body, .website-name-container, .right-side, #sign-up-form, .form-control {
+body, .website-name-container, .right-side, .top, #sign-up-form, .form-control {
   display: flex;
 }
 
-.right-side, .form-control {
+.right-side, .top, .form-control {
   flex-direction: column;
 }
 
@@ -57,6 +57,10 @@ body {
 
 .top, .bottom {
   background-color: #F9FAFB;
+}
+
+.top {
+  justify-content: flex-end;
 }
 
 #sign-up-form {
