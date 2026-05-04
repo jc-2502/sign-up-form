@@ -45,6 +45,7 @@ body {
 
 .website-name-container {
   background-color: rgba(0, 0, 0, 0.4);
+  height: 150px;
 }
 
 .right-side {
