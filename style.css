@@ -69,6 +69,11 @@ body {
   padding-bottom: 60px;
 }
 
+.middle {
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
 #sign-up-form {
   flex-wrap: wrap;
 }
