@@ -93,6 +93,10 @@ input:focus {
   outline: none;
 }
 
+.bottom {
+  padding-top: 35px;
+}
+
 button#create-account {
   background-color: var(--shared-green);
   border-color: var(--shared-green);
