@@ -120,6 +120,10 @@ button#create-account {
   font-weight: bold;
 }
 
+.bottom p {
+  font-size: 18px;
+}
+
 #log-in-link {
   color: var(--shared-green);
 }
