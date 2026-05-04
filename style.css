@@ -13,7 +13,7 @@
   --shared-green: #596D48;
 }
 
-/* ******************************  ****************************** */
+/* ****************************** flexbox ****************************** */
 
 body, .website-name-container, .right-side, #sign-up-form {
   display: flex;
@@ -21,6 +21,12 @@ body, .website-name-container, .right-side, #sign-up-form {
 
 .right-side {
   flex-direction: column;
+}
+
+/* ****************************** sections ****************************** */
+
+body {
+  height: 100vh
 }
 
 .left-side {
@@ -31,6 +37,10 @@ body, .website-name-container, .right-side, #sign-up-form {
 
 .website-name-container {
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.right-side {
+  justify-content: center;
 }
 
 input {
