@@ -126,4 +126,5 @@ button#create-account {
 
 #log-in-link {
   color: var(--shared-green);
+  font-weight: bold;
 }
