@@ -92,6 +92,7 @@ body {
 
 .form-control {
   margin-right: 75px;
+  gap: 1px;
 }
 
 label {
