@@ -98,9 +98,12 @@ input[type='password']:invalid {
   border: 1px solid rgb(185, 0, 0);
 }
 
+input:focus, button#create-account {
+  box-shadow: 2px 2px 3px 1px #DDDDDD;
+}
+
 input:focus {
   border: 1px solid rgb(0, 0,200);
-  box-shadow: 2px 2px 3px 1px #dddddd;
   outline: none;
 }
 
