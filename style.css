@@ -15,11 +15,11 @@
 
 /* ****************************** flexbox ****************************** */
 
-body, .website-name-container, .right-side, .top, #sign-up-form, .form-control {
+body, .website-name-container, .right-side, .top, .top > .container, #sign-up-form, .form-control {
   display: flex;
 }
 
-.right-side, .top, .form-control {
+.right-side, .top, .top > .container, .form-control {
   flex-direction: column;
 }
 
@@ -67,6 +67,10 @@ body {
 .top {
   justify-content: flex-end;
   padding-bottom: 60px;
+}
+
+.top > .container {
+  gap: 30px;
 }
 
 .middle {
