@@ -66,6 +66,7 @@ body {
 
 .top {
   justify-content: flex-end;
+  padding-bottom: 60px;
 }
 
 #sign-up-form {
