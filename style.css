@@ -23,7 +23,7 @@ body, .left-side, .website-name-container, .right-side, .top, .top > .container,
   flex-direction: column;
 }
 
-.right-side {
+.left-side, .right-side {
   flex: auto;
 }
 
