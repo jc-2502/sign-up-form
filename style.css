@@ -15,11 +15,11 @@
 
 /* ****************************** flexbox ****************************** */
 
-body, .website-name-container, .right-side, .top, .top > .container, #sign-up-form, .form-control {
+body, .left-side, .website-name-container, .right-side, .top, .top > .container, #sign-up-form, .form-control {
   display: flex;
 }
 
-.right-side, .top, .top > .container, .form-control {
+.left-side, .right-side, .top, .top > .container, .form-control {
   flex-direction: column;
 }
 
@@ -41,6 +41,7 @@ body {
   background-image: url('images/halie-west-25xggax4bSA-unsplash.jpg');
   background-size: cover;
   color: white;
+  justify-content: space-between;
 }
 
 .website-name-container {
