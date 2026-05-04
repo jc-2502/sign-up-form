@@ -43,6 +43,10 @@ body {
   justify-content: center;
 }
 
+.container, #sign-up-form {
+  width: 675px;
+}
+
 input {
   border: 1px solid #E5E7EB;
 }
