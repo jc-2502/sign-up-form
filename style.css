@@ -98,6 +98,7 @@ input {
   border: 1px solid #E5E7EB;
   width: 260px;
   height: 30px;
+  border-radius: 3px;
 }
 
 input[type='password']:invalid {
