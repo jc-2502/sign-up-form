@@ -83,6 +83,11 @@ body {
   font-size: 96px;
 }
 
+.left-side p {
+  text-align: center;
+  font-size: 14px;
+}
+
 .right-side {
   justify-content: center;
 }
