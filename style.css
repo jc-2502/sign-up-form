@@ -49,6 +49,13 @@ body {
 .website-name-container {
   background-color: rgba(0, 0, 0, 0.4);
   height: 150px;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-side img {
+  height: 85%;
+  width: auto;
 }
 
 .right-side {
