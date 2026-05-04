@@ -51,6 +51,8 @@ body {
   height: 150px;
   justify-content: center;
   align-items: center;
+  padding-left: 80px;
+  padding-right: 80px;
 }
 
 .left-side img {
