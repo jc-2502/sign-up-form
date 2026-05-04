@@ -51,6 +51,11 @@ body {
   justify-content: center;
 }
 
+.right-side-section {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .container, #sign-up-form {
   width: 675px;
 }
