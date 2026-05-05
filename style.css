@@ -11,6 +11,8 @@
 
 :root {
   --shared-green: #596D48;
+  --focused-green: #495D38;
+  --shadow-green: #293D18;
 }
 
 /* ****************************** flexbox ****************************** */
@@ -180,13 +182,19 @@ input:focus {
 button#create-account {
   background-color: var(--shared-green);
   border: 1px solid var(--shared-green);
-  color: white;
-  margin-bottom: 40px;
   width: 235px;
   height: 50px;
   border-radius: 7px;
+  color: white;
   font-size: 18px;
   font-weight: bold;
+  margin-bottom: 40px;
+}
+
+button#create-account:focus {
+  background-color: var(--focused-green);
+  border: 1px solid var(--focused-green);
+  box-shadow: inset 0px 0px 5px var(--shadow-green);
 }
 
 .bottom p {
