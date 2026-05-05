@@ -9,6 +9,24 @@
   margin: 0;
 }
 
+@font-face {
+  font-family: 'Norse';
+  src: url('fonts/Norse.woff2') format('woff2'),
+      url('fonts/Norse.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Norse';
+  src: url('fonts/Norse-Bold.woff2') format('woff2'),
+      url('fonts/Norse-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --shared-green: #596D48;
   --focused-green: #495D38;
@@ -61,24 +79,6 @@ body {
 .left-side img {
   height: 85%;
   width: auto;
-}
-
-@font-face {
-  font-family: 'Norse';
-  src: url('fonts/Norse.woff2') format('woff2'),
-      url('fonts/Norse.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Norse';
-  src: url('fonts/Norse-Bold.woff2') format('woff2'),
-      url('fonts/Norse-Bold.woff') format('woff');
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
 }
 
 .left-side h1 {
