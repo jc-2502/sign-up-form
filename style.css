@@ -40,6 +40,7 @@ body {
 .left-side {
   background-image: url('images/halie-west-25xggax4bSA-unsplash.jpg');
   background-size: cover;
+  background-position: center;
   color: white;
   justify-content: space-between;
   padding-top: 225px;
