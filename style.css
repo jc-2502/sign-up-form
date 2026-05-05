@@ -15,11 +15,11 @@
 
 /* ****************************** flexbox ****************************** */
 
-body, .left-side, .website-name-container, .right-side, .top, .top > .container, #sign-up-form, .form-control {
+body, .left-side, .website-name-container, .right-side, .top, #sign-up-form, .form-control {
   display: flex;
 }
 
-.left-side, .right-side, .top, .top > .container, .form-control {
+.left-side, .right-side, .top, .form-control {
   flex-direction: column;
 }
 
@@ -122,8 +122,8 @@ body {
   line-height: 1.2;
 }
 
-.top > .container {
-  gap: 30px;
+.top p:not(:last-child) {
+  margin-bottom: 30px;
 }
 
 .middle {
